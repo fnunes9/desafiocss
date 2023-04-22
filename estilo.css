@@ -1,0 +1,56 @@
+body {
+    background-image: url("imagenspng/fundo.png");
+    background-color: rgb(14, 88, 51);
+    color: aliceblue;
+    text-align: center;
+}
+
+img {
+    width: 130px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+li a {
+    padding: 5px 10px;
+    margin: 0;
+    border: 1px solid rgb(61, 119, 90);
+    background: rgb(14, 88, 51);
+    text-decoration: none;
+    color: #FFF;
+    /* cantos arredondados */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background: #CCC;
+    color: #000;
+    border-color: #000;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.quadro {
+    border: 3px solid #FFF;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 25px;
+}
